@@ -57,9 +57,11 @@ cd ccminer/&&./start.sh
 AUTORUN TERMUX AFTER REBOOT
 ## [ advanced user only ]
 
-## Auto start app ( easy) 
+## Autostart App Manager (Easy) 
 
-<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Autostart App Manager</a> <br>
+<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Autostart App Manager Download</a> <br>
+
+
 
 
 # TVBOX / STB 
