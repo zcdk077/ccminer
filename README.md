@@ -51,7 +51,6 @@ nano ../usr/etc/bash.bashrc
 termux-wake-lock
 clear
 cd ccminer/&&./start.sh
-
 ```
 
 AUTORUN TERMUX AFTER REBOOT
@@ -59,9 +58,7 @@ AUTORUN TERMUX AFTER REBOOT
 
 ## Autostart App Manager (Easy) 
 
-<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Autostart App Manager Download</a> <br>
-
-
+<a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Autostart App Manager Download</a> <br><br><br>
 
 
 # TVBOX / STB 
