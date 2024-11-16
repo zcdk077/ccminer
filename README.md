@@ -39,7 +39,7 @@ chmod +x ccminer start.sh
 nano config.json
 ```
 
-## [ Autorun ] [ CCminer ]
+## [ Autorun Termux After Reboot ] [ CCminer ]
 
 ```
 cd ..
@@ -48,6 +48,8 @@ nano ../usr/etc/bash.bashrc
 
 ## [ put this code ]
 ```
+termux-wake-lock
+clear
 cd ccminer/&&./start.sh
 
 ```
@@ -59,31 +61,6 @@ AUTORUN TERMUX AFTER REBOOT
 
 <a href=https://apkcombo.com/id/autostart-app-manager/com.sugarapps.autostartmanager/> Autostart App Manager</a> <br>
 
-
-## Download termux boot
-<a href=https://f-droid.org/repo/com.termux.boot_1000.apk> Termux Boot</a> <br>
-
-### create dir and boot script
-```
-mkdir ~/.termux/boot
-cd ~/.termux/boot
-nano termux.sh
-```
-### type this in sh , ctrl x and save reboot phone. 
-```
-#!/data/data/com.termux/files/usr/bin/sh
-termux-wake-lock
-~/ccminer/start.sh >> ~/miner.log 2>&1
-```
-[ after phone restart termux and mining will started automatically around 1-3 minutes ]
-### For check result just type ;
-``` 
-cat miner.log
-```
-### Clear log & reboot phone
-``` 
-rm miner.log
-``` 
 
 # TVBOX / STB 
 
