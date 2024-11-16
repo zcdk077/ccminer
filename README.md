@@ -29,7 +29,7 @@ yes | pkg install libjansson nano git
 
 ## [ Clone Repo]
 ```
-git clone https://github.com/zcdk077/ccminer_3.8.3-4
+git clone https://github.com/zcdk077/ccminer
 cd ccminer
 chmod +x ccminer start.sh
 ```
