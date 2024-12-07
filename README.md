@@ -24,13 +24,15 @@ yes | pkg update && pkg upgrade -y
 
 ## [ install libs]
 ```
-yes | pkg install libjansson nano git
+yes | pkg install libjansson wget nano
 ```
 
 ## [ Clone Repo]
 ```
-git clone https://github.com/zcdk077/ccminer
-cd ccminer
+mkdir ccminer && cd ccminer
+wget https://raw.githubusercontent.com/zcdk077/ccminer/3.8.3-4/ccminer
+wget https://raw.githubusercontent.com/zcdk077/ccminer/3.8.3-4/config.json
+wget https://raw.githubusercontent.com/zcdk077/ccminer/3.8.3-4/start.sh
 chmod +x ccminer start.sh
 ```
 
