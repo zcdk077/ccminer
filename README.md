@@ -14,7 +14,7 @@ Use Auto start Manager from Gplay store for auto start termux, then use autorun 
 A. USING TERMUX 
 Download Termux lastest Termux apk here
 
-<a href=[https://f-droid.org/repo/com.termux_1020.apk]>TERMUX FDROID</a> <br>
+<a href=https://f-droid.org/repo/com.termux_1020.apk>TERMUX FDROID</a> <br>
 
 
 ## [ install update & upgrade ]
